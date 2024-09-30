@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(Photobook/R1-04531-005A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 38% 62%;
+    /*align-items: center;*/
+}
+.leaves{
+    width: 100%;
+    background: url(Photobook/R1-04531-005A.JPG);
+    background-color: rgba(200, 200, 200, 0.2);
+    background-blend-mode:difference;
+    /*background-position:bottom;*/
+    background-size: 100%;
+    height: 2148px;
+
+}
+
+.navbar1{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.navbar2{
+    width: 1200px;
+    height: 75px;
+    padding-left: 3cm;
+    float: left;
+    margin: auto;
+    position: fixed;
+    z-index: 6;
+}
+
+.icon{
+    width: 2cm;
+    float: left;
+    height: 70px;
+    position: fixed;
+    left: 10px;
+}
+
+.contain-title{
+    grid-column: 2;
+    grid-row: 2;
+}
+.title{
+    color:rgb(255, 166, 0);
+    font-size: 120px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    text-align: center;
+    /*padding-bottom: 1.5cm;
+    padding-left: 2.5cm;*/
+}
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+.logo{
+    color:rgb(255, 166, 0);
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 25px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-text-stroke: 0.5px rgb(255, 166, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(255, 166, 0)
+}
+.contain-about{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+#about{
+    color:rgb(255, 166, 0);
+    font-size: 20px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    /*position: absolute;
+    top: 400px;
+    left: 300px;*/
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+.contain-contact{
+    grid-column: 3;
+    grid-row: 2;
+}
+#contact{
+    color:rgb(255, 166, 0);
+    font-size: 20px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    /*position: absolute;
+    top: 400px;
+    left: 1100px;*/
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.contain-main-exhibition{
+    grid-column: 1;
+    grid-row: 2;
+}
+#main-exhibition{
+    color:rgb(255, 166, 0);
+    font-size: 20px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    padding-left: 0;
+    padding-top: 0;
+    text-align: right;
+}
+.contain-tribute{
+    grid-column: 2;
+    grid-row: 1;
+}
+#tribute{
+    color:rgb(255, 166, 0);
+    font-size: 20px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    text-align: center;
+    padding-top: 270px;
+}
+.contain-gallery{
+    grid-column: 3;
+    grid-row: 2
+
+}
+#gallery{
+    color:rgb(255, 166, 0);
+    font-size: 20px;
+    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    padding-left: 0;
+    padding-top: 0px;
+}
+
+.about{
+    display: grid;
+    grid-column: 1fr 1fr;
+    height: 100vh;
+   /* background-color: rgba(57, 122, 70, 0.271) ;*/
+    background-color: rgba(44, 53, 46, 0.083) ;
+
+}
+.about1{
+    width: 100%;
+    height: 100vh;
+    background: url(/Photobook/000230140009.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1;
+}
+.about2{
+    grid-column: 2;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: url(/Photobook/000279440014.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 90% 10%;
+}
+.contact-info{
+    grid-row: 2;
+    grid-column: 2;
+    color: aliceblue;
+    font-family: "Lucida Typewriter";
+    font-style: bold;
+    font-size: large;
+
+}
+.tribute{
+    width: 100%;
+    height: 100vh;
+    background: url(/Photobook/img643.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tribute1{
+    max-width: 500px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.tribute2{
+    max-width: 500px;
+    position: relative;
+    left: 850px;
+    top: 90px;
+}
+.tribute3{
+    max-width: 400px;
+    position: relative;
+    left: 50px;
+    top: 200px;
+}
+.tribute4{
+    max-width: 450px;
+    position: relative;
+    left: 900px;
+    top: 200px;
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(255, 166, 0);
+    border-right: none;
+    margin-top: 13px;
+    color:#fff;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    /*border-bottom-right-radius: 5px;*/
+    /*border-top-right-radius: 5px;*/
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgb(255, 166, 0);
+    border: 2px solid rgb(255, 166, 0);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    /*border-bottom-left-radius: 5px;*/
+   /* border-top-left-radius: 5px;*/
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin: auto;
+    color: #c4aa04;
+}
+.content .par{
+    padding-right: 50px;
+    font-family: "Lucida Typewriter";
+    color: #c4aa04;
+    font-style: italic;
+    font-size: x-large;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+/*.par{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    letter-spacing: 3px;
+    line-height: auto;
+    text-align: center;
+}*/
+.fw{
+    color: rgb(179, 0, 0);
+}
+
+
+.Test {
+    display: block;
+    max-width: 10%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pond{
+    width: 100%;
+    background: url(Photobook/000279440016.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#pond{
+    max-width: 450px;
+    position: relative;
+    top: 200px;
+    left: 870px;
+    transition: 0.5s ease-in-out;
+}
+#pond:hover{
+    max-width: 470px;
+    left: 860px;
+}
+.pond1{
+    width: 100%;
+    background: url(/Photobook/000279440015.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+
+#pond1{
+    max-width: 450px;
+    position: absolute;
+    top: 200px;
+    left: 870px;
+    transition: 0.5s ease-in-out;
+}
+#pond1:hover{
+    max-width: 470px;
+    left: 860px;
+}
+.plant{
+    width: 100%;
+    background: url(Photobook/000115170028.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+.breakfast{
+    width: 100%;
+    background: url(Photobook/000115170035.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#breakfast1{
+    max-width: 370px;
+    position: absolute;
+    top: 1320px;
+    left: 870px;
+    cursor: move;
+}
+.shade{
+    width: 40%;
+    background: url(Photobook/HAwBg.jpeg);
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-size: 100%;
+    /*height: 1718.5px;  /*original size 3224px x 2161px*/
+    height: 859.25px;
+}
+#shade1{
+    max-width: 200px;
+    position: absolute;
+    top: 1870px;
+    left: 80px;
+    cursor: move;
+}
+#shade2{
+    max-width: 420px;
+    position: absolute;
+    top: 2100px;
+    left: 400px;
+    cursor: move;
+}
+#shade3{
+    max-width: 450px;
+    position: relative;
+    top: 500px;
+    left: 870px;
+    transition: 0.5s ease-in-out;
+}
+#shade3:hover{
+    max-width: 470px;
+    left: 860px;
+}
+.windows{
+    width: 100%;
+    background: url(Photobook/R1-04532-030A.JPG);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#windows1{
+    max-width: 450px;
+    position: absolute;
+    top: 2800px;
+    left: 140px;
+    cursor: move;
+}
+#windows2{
+    max-width: 450px; 
+    position: absolute; 
+    top: 3000px; 
+    left: 950px;
+    cursor: move;
+}
+.contain-shapes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container{
+    width: 100%;
+
+}
+.shapes{
+    width: 100%;
+    background: url(Photobook/R1-04532-025A.JPG);
+    background-position:center;
+   /* margin-left: 50%;*/
+    background-size:cover;
+    height: 1074.0625px;
+}
+#shapes1{
+    max-width: 400px;
+    position: relative;
+    top: 200px;
+    left: 0%;
+    transition: 0.5s ease-in-out;
+}
+#shapes1:hover{
+    max-width: 420px;
+}
+#shapes2{
+    max-width: 400px;
+    position: relative;
+    /*top: 5168px;*/
+    top: 543.71106px;
+    left: 0%;
+    transition: 0.5s ease-in-out;
+}
+#shapes2:hover{
+    max-width: 420px;
+}
+.reflection{
+    width: 100%;
+    height: 150vh;
+}
+#reflection1{
+    max-width: 700px;
+    position: absolute;
+    top: 4700px;
+    left: 50px;
+}
+#reflection2{
+    max-width: 700px;
+    position: absolute;
+    top: 5230px;
+    left: 80px;
+}
+#reflection3{
+    max-width: 800px;
+    position: absolute;
+    top: 4800px;
+    left: 800px;
+}
+.brutalism{
+    width: 100%;
+    background: url(Photobook/000115190018.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+
+#brutalism1{
+    opacity: 1;
+    max-width: 400px;
+    position: absolute;
+    top: 6000px;
+    left: 200px;
+    transition: 0.8s ease-in-out;
+}
+#brutalism1:hover{
+    max-width: 420px;
+    left: 190px;
+}
+#brutalism2{
+    opacity: 1;
+    max-width: 400px;
+    position: absolute;
+    top: 6350px;
+    left: 200px;
+    transition: 0.8s ease-in-out;
+}
+#brutalism2:hover{
+    max-width: 420px;
+    left: 190px;
+}
+#brutalism3{
+    max-width: 400px;
+    position: absolute;
+    top: 6370px;
+    left: 850px;
+    transition: 0.5s ease-in-out;
+}
+/*#brutalism3:hover{
+    max-width: 420px;
+    position: absolute;
+    top: 6370px;
+    left: 840px;
+}*/
+
+&:has(#brutalism3:hover)
+#brutalism1{
+    opacity: 0;
+}
+&:has(#brutalism3:hover)
+#brutalism2{
+    opacity: 0;
+}
+
+
+.concrete{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.concrete1{
+    max-width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.concrete2{
+    max-width: 100%;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.zen{
+    width: 100%;
+    background: url(Photobook/000115170019.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+.zen1{
+    max-width: 500px;
+    position: relative;
+    top: 300px;
+    left: 150px;
+}
+.shower{
+    max-width: 100%;
+    height: 200vh;
+}
+.shower1{
+    max-width: 600px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.shower2{
+    max-width: 700px;
+    position: relative;
+    top: -650px;
+    left: 600px;
+}
+.shower3{
+    max-width: 300px;
+    position: relative;
+    top: -457px;
+    left: 0px;
+}
+.shower4{
+    max-width: 600px;
+    position: relative;
+    top: -700px;
+    left: 300px;
+}
+.dreams{
+    width: 100%;
+    background: url(Photobook/000085090020.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#dreams1{
+    opacity: 0;
+    max-width: 450px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    transition: 0.5s ease-in;
+}
+#dreams1:hover{
+    opacity:1;
+}
+#dreams2{
+    opacity: 0;
+    max-width: 450px;
+    position: absolute;
+    top: 400px;
+    left: 870px;
+    transition: 0.5s ease-in-out;
+}
+#dreams2:hover{
+    opacity: 1;
+}
+.balcony{
+    width: 100%;
+    background: url(Photobook/000279440025.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#balcony1{
+    max-width: 250px;
+    position: absolute;
+    top: 980px;
+    left: 180px;
+    cursor: move;
+}
+#balcony2{
+    max-width: 300px;
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+    cursor: move;
+}
+.como{
+    width: 100%;
+    background: url(/Photobook/000279440034.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#como1{
+    max-width: 500px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+#como2{
+    max-width: 270px;
+    position: relative;
+    top: -230px;
+    left: 1000px;
+}
+
+.emptiness{
+    width: 100%;
+    background: url(/Photobook/000279440014.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+.ruins{
+    width: 100%;
+    background: url(/Photobook/R1-04532-033A.JPG);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#ruins1{
+    max-width: 370px;
+    position: absolute;
+    top: 3000px;
+    left: 100px;
+    cursor: move;
+}
+.pigeons{
+    background-color: rgba(0, 0, 0, 0.951);
+}
+.pigeons1{
+    width: 100%;
+    height: 180vh;
+}
+#pigeons1a{
+    max-width: 450px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+#pigeons1b{
+    max-width: 500px;
+    position: absolute;
+    top: 380px;
+    left: 170px;
+
+}
+#pigeons1c{
+    max-width: 550px;
+    position: absolute;
+    top: 650px;
+    left: 80px;
+
+}
+#pigeons1d{
+    max-width: 300px;
+    position: absolute;
+    top: 603px;
+    left: 1000px;
+}
+#pigeons1e{
+    max-width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+
+}
+#pigeons1f{
+    max-width: 180px;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+}
+.pigeons2{
+    width: 100%;
+    background: url(/Photobook/R1-04531-003A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh
+}
+#pigeons2a{
+    max-width: 700px;
+    position: relative;
+    top: 1200px;
+    left: 700px;
+}
+.contain-intimate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+.intimate1{
+    max-width: 100%;
+    background: url(/Photobook/000085090018.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+.intimate2{
+    max-width:100%;
+    background: url(/Photobook/R1-04532-001A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    grid-row: 1;
+    grid-column:2;
+
+}
+.intimate3{
+    max-width:100%;
+    background: url(/Photobook/R1-04532-000A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    grid-area: "downright";
+    grid-row: 2;
+    grid-column: 2;
+}
+.space{
+    height: 16vh;
+}
+.bench{
+    width: 100%;
+    background: url(/Photobook/000279440012.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#bench1{
+    max-width: 450px;
+    position: relative;
+    left: 870px;
+    top: 50px;
+}
+#bench2{
+    max-width: 450px;
+    position: relative;
+    left: 870px;
+    top: 380px;
+}
+.legs{
+    width: 100%;
+    height: 150vh;
+}
+#legs1{
+    max-width: 700px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+#legs2{
+    max-width: 700px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+#legs3{
+    max-width: 500px;
+    position: relative;
+    top: -200px;
+    left: 900px;
+}
+.mirror{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 65% 5%;
+    height: 100vh;
+}
+.mirror1{
+    background: url(/Photobook/000115190035.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 2/ span 3;
+    grid-row: 2;
+}
+.flowersbw{
+    width: 100%;
+    background: url(Photobook/000115190014.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#flowersbw1{
+    max-width: 370px;
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+    cursor: move;
+}
+#flowersbw2{
+    max-width: 250px;
+    position: absolute;
+    top: 1396px;
+    left: 100px;
+    cursor: move;
+}
+.denise{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.denise1{
+    max-width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.denise2{
+    max-width: 100%;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grimey{
+    width: 100%;
+    background-color: black;
+    height: 260vh;
+
+}
+#grimey1{
+    max-width: 800px;
+    left: 200px;
+    top: 100px;
+    position: relative;
+}
+#grimey2{
+    max-width: 600px;
+    left: 700px;
+    top: 250px;
+    position: relative;
+}
+#grimey3{
+    max-width: 500px;
+    left: 100px;
+    top: 400px;
+    position: relative;
+}
+.cigarette{
+    /*max-width: 500px;*/
+    max-width: 565px;
+    /*left: 900px;*/
+    left: 880px;
+    /*top: -362px;*/
+    top: 510px;
+    position: relative;
+}
+
+.grimey4{
+    width: 100%;
+    background: url(/Photobook/R1-04531-033A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/*.cigarette{
+    width: 100%;
+    background: url(/Photobook/R1-04531-034A.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 300vh;
+}*/
+.ruins{
+    width: 100%;
+    height: 100vh;
+    background: url(/Photobook/R1-04532-033A.JPG);
+    background-position: center;
+    background-size: cover;
+}
+#ruins1{
+    max-width: 300px;
+    position: absolute;
+    left: 250px;
+    top: 650px
+}
+.fishing{
+    width: 100%;
+    background: url(Photobook/R1-04531-011A.JPG);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+.hope{
+    width: 100%;
+    background: url(/Photobook/000279440018.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
+#hope1{
+    max-width: 450px;
+    position: absolute;
+    top: 6200px;
+    left: 870px;
+    cursor: move;
+}
+.grandma1{
+    width: 100%;
+    background: url(/Photobook/img643.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+}
