@@ -14,26 +14,10 @@
     grid-template-rows: 38% 62%;
     /*align-items: center;*/
 }
-.leaves{
-    width: 100%;
-    background: url(Photobook/R1-04531-005A.JPG);
-    background-color: rgba(200, 200, 200, 0.2);
-    background-blend-mode:difference;
-    /*background-position:bottom;*/
-    background-size: 100%;
-    height: 2148px;
-
-}
-
-.navbar1{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
 .navbar2{
-    width: 1200px;
-    height: 75px;
-    padding-left: 3cm;
+    width: 83.33vw;
+    height: 8.844vh;
+    /*padding-left: 9.9vw;*/
     float: left;
     margin: auto;
     position: fixed;
@@ -41,11 +25,11 @@
 }
 
 .icon{
-    width: 2cm;
+    width: 6.613vw;
     float: left;
-    height: 70px;
+    height: 8.2547vh;
     position: fixed;
-    left: 10px;
+    /*left: 6.944vw;*/
 }
 
 .contain-title{
@@ -75,17 +59,22 @@ a:link {
 
 .logo{
     color:rgb(255, 166, 0);
-    font-size: 35px;
+    font-size: 2.43vw;
     font-family:'Times New Roman', Times, serif;
-    padding-left: 25px;
+    padding-left: 1.736vw;
     float: left;
-    padding-top: 10px;
+    padding-top: 1.18vh;
 }
 
 .menu{
-    width: 400px;
+    /*width: 400px;
     float: left;
-    height: 70px;
+    height: 70px;*/
+    width: 27.77vw;
+    float: left;
+    height: 8.2547vh;
+    /*height: 7.77vh;*/
+    /*position: fixed;*/
 }
 
 ul{
@@ -93,12 +82,18 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5vw;
 }
 ul li{
-    list-style: none;
+    /*list-style: none;
     margin-left: 62px;
     margin-top: 27px;
-    font-size: 14px;
+    font-size: 14px;*/
+    list-style: none;
+    margin-left: 11vw;
+    /*margin-top: 1.8vw;*/
+    padding-top: 1.18vh;
+    font-size: 0.9vw;
 }
 
 ul li a{
@@ -195,18 +190,19 @@ ul li a:hover{
 }
 .contact{
     width: 100%;
-    height: 100vh;
     background: url(/Photobook/000279440014.jpg);
     background-position: center;
     background-size: cover;
+    height: 100vh;
+    position: relative;
     /*display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: 90% 10%;*/
 }
 .contact-info-background{
     position: absolute;
-    top: 87vh;
-    left: 67vw;
+    top: 57vh;
+    left: 55vw;
     background:rgb(255, 166, 0);
     width: 23vw;
     height: 3vh;
@@ -218,56 +214,69 @@ ul li a:hover{
 }
 .E-mail-box{
     position: absolute;
-    top: 18vh;
-    left: 20vw;
-    width: 20vw;
+    top: 54%;
+    left: 55%;
+    width: 20%;
 }
 .E-mail{
     /*grid-row: 2;
     grid-column: 2;*/
-    color: aliceblue;
+    color: rgb(255, 166, 0);
     font-family: "Lucida Typewriter";
     font-style: bold;
-    font-size: 35vh;
+    font-size: 2vh;
 }
 .contact-info{
-    color: aliceblue;
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    color: rgb(255, 166, 0);
     font-family: "Lucida Typewriter";
     font-style: bold;
-    font-size: 2.22vh;
+    font-size: 1.8vh;
     text-align: center;
 
 }
 .tribute{
     width: 100%;
-    height: 100vh;
     background: url(/Photobook/img643.jpg);
     background-position: center;
     background-size: cover;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
+}
+.tribute-container{
+    height:100vh;
+    width: 100%;
+    position: relative;
 }
 .tribute1{
-    max-width: 500px;
-    position: relative;
-    left: 100px;
-    top: 100px;
+    max-width: 34.7222%;
+    position: absolute;
+    left: 6.944%;
+    top: 10%;
 }
 .tribute2{
-    max-width: 500px;
-    position: relative;
-    left: 850px;
-    top: 90px;
+    max-width: 34.7222%;
+    position: absolute;
+    left: 59.027%;
+    top: 50%;
 }
 .tribute3{
-    max-width: 400px;
-    position: relative;
-    left: 50px;
-    top: 200px;
+    max-width: 27.777%;
+    position: absolute;
+    left: 3.472%;
+    /*top: 105%;*/
+    top: 5%;
 }
 .tribute4{
-    max-width: 450px;
-    position: relative;
-    left: 900px;
-    top: 200px;
+    max-width: 31.25%;
+    position: absolute;
+    left: 62.5%;
+    /*top: 170%;*/
+    top: 80%
+
 
 }
 .search{
@@ -361,123 +370,148 @@ img{
     background: url(Photobook/000279440016.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #pond{
-    max-width: 450px;
-    position: relative;
-    top: 200px;
-    left: 870px;
+    max-width: 31.25vw;
+    position: absolute;
+    top: 22.2222%;
+    left: 60.42%;
     transition: 0.5s ease-in-out;
 }
 #pond:hover{
-    max-width: 470px;
-    left: 860px;
+    max-width: 32.64vw;
+    left: 59.72vw;
 }
 .pond1{
     width: 100%;
     background: url(/Photobook/000279440015.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 
 #pond1{
-    max-width: 450px;
+    max-width: 31.25%;
     position: absolute;
-    top: 200px;
-    left: 870px;
+    top: 22.2222%;
+    left: 60.42%;
     transition: 0.5s ease-in-out;
 }
 #pond1:hover{
-    max-width: 470px;
-    left: 860px;
+    max-width: 32.64vw;
+    left: 59.72vw;
 }
 .plant{
     width: 100%;
     background: url(Photobook/000115170028.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    aspect-ratio: 16/10;
 }
 .breakfast{
     width: 100%;
     background: url(Photobook/000115170035.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #breakfast1{
-    max-width: 370px;
+    max-width: 25.6944%;
     position: absolute;
-    top: 1320px;
-    left: 870px;
+    /* top: 1320px;*/
+    /*top: 155.66%;*/
+    top: 55.667%;
+    left: 60.42%;
     cursor: move;
+}
+.shade_container{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 .shade{
     width: 40%;
     background: url(Photobook/HAwBg.jpeg);
     background-position: center;
-    margin-left: 50px;
+    /*margin-left: 50px;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;*/
+    margin-left: 3.472%;
+    margin-top: 9.434%;
+    margin-bottom: 5.896%;
     background-size: 100%;
     /*height: 1718.5px;  /*original size 3224px x 2161px*/
-    height: 859.25px;
+    /*height: 101.326vh;*/
+    height: auto;
+    aspect-ratio: 10/14.92;
 }
 #shade1{
-    max-width: 200px;
+    max-width: 13.889%;
     position: absolute;
-    top: 1870px;
-    left: 80px;
+    /*top: 220.5189vh;*/
+    top: 10%;
+    left: 5.5556%;
     cursor: move;
 }
 #shade2{
-    max-width: 420px;
+    max-width: 29.1667%;
     position: absolute;
-    top: 2100px;
-    left: 400px;
+    /*top: 247.6415vh;*/
+    top: 37.6415%;
+    left: 27.7777%;
     cursor: move;
 }
 #shade3{
-    max-width: 450px;
-    position: relative;
-    top: 500px;
-    left: 870px;
+    max-width: 31.25%;
+    position: absolute;
+    top: 58.96%;
+    left: 60.42%;
     transition: 0.5s ease-in-out;
 }
 #shade3:hover{
-    max-width: 470px;
-    left: 860px;
+    max-width: 32.64%;
+    left: 59.72%;
 }
 .windows{
     width: 100%;
     background: url(Photobook/R1-04532-030A.JPG);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #windows1{
-    max-width: 450px;
+    max-width: 31.25%;
     position: absolute;
-    top: 2800px;
-    left: 140px;
+    top: 16%;
+    left: 9.72222%;
     cursor: move;
 }
 #windows2{
-    max-width: 450px; 
+    max-width: 31.25%; 
     position: absolute; 
-    top: 3000px; 
-    left: 950px;
+    top: 49%; 
+    left: 65.972%;
     cursor: move;
 }
 .contain-shapes{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 .container{
     width: 100%;
-
 }
 .shapes{
     width: 100%;
@@ -485,88 +519,94 @@ img{
     background-position:center;
    /* margin-left: 50%;*/
     background-size:cover;
-    height: 1074.0625px;
+    /*height: 1074.0625px;*/
+    height: auto;
+    aspect-ratio: 10/14.92;
 }
 #shapes1{
-    max-width: 400px;
-    position: relative;
-    top: 200px;
+    max-width: 27.777%;
+    position: absolute;
+    top: 23.585%;
     left: 0%;
     transition: 0.5s ease-in-out;
 }
 #shapes1:hover{
-    max-width: 420px;
+    max-width: 29.1667%;
 }
 #shapes2{
-    max-width: 400px;
-    position: relative;
+    max-width: 27.777%;
+    position: absolute;
     /*top: 5168px;*/
-    top: 543.71106px;
+    top: 64.117%;
     left: 0%;
     transition: 0.5s ease-in-out;
 }
 #shapes2:hover{
-    max-width: 420px;
+    max-width: 29.1667%;
 }
 .reflection{
     width: 100%;
-    height: 150vh;
+    height: auto;
+    aspect-ratio: 16/14;
+    position: relative;
 }
 #reflection1{
-    max-width: 700px;
+    max-width: 48.61%;
     position: absolute;
-    top: 4700px;
-    left: 50px;
+    top: 10%;
+    left: 3.47%;
 }
 #reflection2{
-    max-width: 700px;
+    max-width: 48.61%;
     position: absolute;
-    top: 5230px;
-    left: 80px;
+    top: 52%;
+    left: 5.556%;
 }
 #reflection3{
-    max-width: 800px;
+    max-width: 55.556%;
     position: absolute;
-    top: 4800px;
-    left: 800px;
+    top: 15%;
+    left: 55.556%;
 }
 .brutalism{
     width: 100%;
     background: url(Photobook/000115190018.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 
 #brutalism1{
     opacity: 1;
-    max-width: 400px;
+    max-width: 27.777%;
     position: absolute;
-    top: 6000px;
-    left: 200px;
+    top: 10%;
+    left: 13.888%;
     transition: 0.8s ease-in-out;
 }
 #brutalism1:hover{
-    max-width: 420px;
-    left: 190px;
+    max-width: 29.1666%;
+    left: 13.194%;
 }
 #brutalism2{
     opacity: 1;
-    max-width: 400px;
+    max-width: 27.777%;
     position: absolute;
-    top: 6350px;
-    left: 200px;
+    top: 60%;
+    left: 13.888%;
     transition: 0.8s ease-in-out;
 }
 #brutalism2:hover{
-    max-width: 420px;
-    left: 190px;
+    max-width: 29.1666%;
+    left: 13.194%;
 }
 #brutalism3{
-    max-width: 400px;
+    max-width: 27.777%;
     position: absolute;
-    top: 6370px;
-    left: 850px;
+    top: 60%;
+    left: 59.0278%;
     transition: 0.5s ease-in-out;
 }
 /*#brutalism3:hover{
@@ -608,55 +648,59 @@ img{
     background: url(Photobook/000115170019.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 .zen1{
-    max-width: 500px;
-    position: relative;
-    top: 300px;
-    left: 150px;
+    max-width: 34.72%;
+    position: absolute;
+    top: 33.333%;
+    left: 10.4167%;
 }
 .shower{
     max-width: 100%;
-    height: 200vh;
+    aspect-ratio: 8/10;
+    position: relative;
 }
 .shower1{
-    max-width: 600px;
-    position: relative;
-    top: 150px;
-    left: 100px;
+    max-width: 41.667%;
+    position: absolute;
+    top: 8.333%;
+    left: 6.944%;
 }
 .shower2{
-    max-width: 700px;
-    position: relative;
-    top: -650px;
-    left: 600px;
+    max-width: 48.611%;
+    position: absolute;
+    top: 40%;
+    left: 41.667%;
 }
 .shower3{
-    max-width: 300px;
-    position: relative;
-    top: -457px;
-    left: 0px;
+    max-width: 50%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
 }
 .shower4{
-    max-width: 600px;
-    position: relative;
-    top: -700px;
-    left: 300px;
+    max-width:  41.667%;
+    position: absolute;
+    top: 63%;
+    left: 20.833%;
 }
 .dreams{
     width: 100%;
     background: url(Photobook/000085090020.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #dreams1{
     opacity: 0;
-    max-width: 450px;
-    position: relative;
-    top: 100px;
-    left: 150px;
+    max-width: 31.25%;
+    position: absolute;
+    top: 11.111%;
+    left: 10.4167%;
     transition: 0.5s ease-in;
 }
 #dreams1:hover{
@@ -664,10 +708,10 @@ img{
 }
 #dreams2{
     opacity: 0;
-    max-width: 450px;
+    max-width: 31.25%;
     position: absolute;
-    top: 400px;
-    left: 870px;
+    top: 44.444%;
+    left: 60.4167%;
     transition: 0.5s ease-in-out;
 }
 #dreams2:hover{
@@ -678,20 +722,21 @@ img{
     background: url(Photobook/000279440025.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #balcony1{
-    max-width: 250px;
+    max-width: 17.3611%;
     position: absolute;
-    top: 980px;
-    left: 180px;
+    top: 8.889%;
+    left: 12.5%;
     cursor: move;
 }
 #balcony2{
-    max-width: 300px;
+    max-width: 20.833%;
     position: absolute;
-    top: 1300px;
-    left: 450px;
+    top: 44.444%;
+    left: 31.25%;
     cursor: move;
 }
 .como{
@@ -700,18 +745,37 @@ img{
     background-position:center;
     background-size:cover;
     height: 100vh;
+    position: relative;
 }
 #como1{
-    max-width: 500px;
-    position: relative;
-    top: 90px;
-    left: 100px;
+    max-width: 34.7222%;
+    position: absolute;
+    top: 10%;
+    left: 6.944%;
 }
 #como2{
-    max-width: 270px;
-    position: relative;
-    top: -230px;
-    left: 1000px;
+    max-width: 18.75%;
+    position: absolute;
+    top: 64%;
+    left: 69.444%;
+}
+@media (max-width: 600px)
+{
+    #como1{
+        max-width: 75%;
+        top: 45%;
+    }
+    #como2{
+        max-width: 35%;
+        top: 80%;
+        left: 60%;
+    }
+    .space_shade{
+        /*height: 16vh;*/
+        width: 100%;
+        aspect-ratio: 20/10;
+    }
+   
 }
 
 .emptiness{
@@ -724,89 +788,147 @@ img{
 .ruins{
     width: 100%;
     background: url(/Photobook/R1-04532-033A.JPG);
-    background-position:center;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
+    position: relative;
+
 }
-#ruins1{
+/*#ruins1{
     max-width: 370px;
     position: absolute;
     top: 3000px;
     left: 100px;
     cursor: move;
+}*/
+/*.ruins{
+    width: 100%;
+    height: 100vh;
+    background: url(/Photobook/R1-04532-033A.JPG);
+    background-position: center;
+    background-size: cover;
+}*/
+#ruins1{
+    max-width: 20.83%;
+    position: absolute;
+    left: 17.3611%;
+    top: 73.86%;
+    cursor: move;
+}
+
+@media (max-width: 600px){
+    .ruins{
+        background: url(/Photobook/R1-04532-033A.JPG);
+        background-size: cover;
+        background-position: -65% 0%;
+    }
+
+   /* .ruins{
+        width: 100vh;
+        height: 100vw;
+        position: absolute;
+        background: url(/Photobook/R1-04532-033A.JPG);
+        background-position:center;
+        background-size:auto;
+        transform: rotate(90deg)translate(0%, 0%);
+        transform-origin: center center;
+        margin: 0;
+    }*/
 }
 .pigeons{
     background-color: rgba(0, 0, 0, 0.951);
 }
 .pigeons1{
     width: 100%;
-    height: 180vh;
+   /* height: 180vh;*/
+    aspect-ratio: 8.8889/10;
+    position: relative;
 }
 #pigeons1a{
-    max-width: 450px;
+    max-width: 31.25%;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    /*top: 100px;
+    left: 100px;*/
+    top: 6.1728%;
+    left: 6.94444%;
 
 }
 #pigeons1b{
-    max-width: 500px;
+    max-width: 34.7222%;
     position: absolute;
-    top: 380px;
-    left: 170px;
-
+    /*top: 380px;
+    left: 170px;*/
+    top: 24.457%;
+    left: 11.8056%;
 }
 #pigeons1c{
-    max-width: 550px;
+    max-width: 38.1944%;
     position: absolute;
-    top: 650px;
-    left: 80px;
+    /*top: 650px;
+    left: 80px;*/
+    left: 5.5556%;
+    top: 40.12345679% ;
 
 }
 #pigeons1d{
-    max-width: 300px;
+    max-width: 20.8333%;
     position: absolute;
-    top: 603px;
-    left: 1000px;
+    /*top: 603px;
+    left: 1000px;*/
+    left: 69.444%;
+    top: 37.222%;
 }
 #pigeons1e{
-    max-width: 700px;
+    max-width: 48.6111%;
     position: absolute;
-    top: 800px;
-    left: 600px;
-
+    /*top: 800px;
+    left: 600px;*/
+    left: 41.6667%;
+    top: 49.3827%;
 }
 #pigeons1f{
-    max-width: 180px;
+    max-width: 12.5%;
     position: absolute;
-    top: 1200px;
-    left: 600px;
+    /*top: 1200px;
+    left: 600px;*/
+    left: 41.6667%;
+    top: 74.074%;
 }
 .pigeons2{
     width: 100%;
     background: url(/Photobook/R1-04531-003A.JPG);
     background-position: center;
     background-size: cover;
-    height: 100vh
+    aspect-ratio: 16/10;
+    position: relative;
+}
+.pigeons3{
+    width: 100%;
+    aspect-ratio: 16/10;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.951);
+
 }
 #pigeons2a{
-    max-width: 700px;
-    position: relative;
-    top: 1200px;
-    left: 700px;
+    max-width: 48.6111%;
+    position: absolute;
+    /*top: 1200px;
+    left: 700px;*/
+    left: 48.6111%;
+    bottom: 0%;
 }
 .contain-intimate{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
-    height: 100vh;
+    aspect-ratio: 16/10;
 }
 .intimate1{
     max-width: 100%;
     background: url(/Photobook/000085090018.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    aspect-ratio: 8/10;
     grid-column: 1;
     grid-row: 1 / span 2;
 }
@@ -815,7 +937,7 @@ img{
     background: url(/Photobook/R1-04532-001A.JPG);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    aspect-ratio: 8/5;
     grid-row: 1;
     grid-column:2;
 
@@ -825,60 +947,74 @@ img{
     background: url(/Photobook/R1-04532-000A.JPG);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    aspect-ratio: 8/5;
     grid-area: "downright";
     grid-row: 2;
     grid-column: 2;
 }
 .space{
-    height: 16vh;
+    /*height: 16vh;*/
+    width: 100%;
+    aspect-ratio: 10/1;
 }
 .bench{
     width: 100%;
     background: url(/Photobook/000279440012.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #bench1{
-    max-width: 450px;
-    position: relative;
-    left: 870px;
-    top: 50px;
+    max-width: 31.25%;
+    position: absolute;
+    /*left: 870px;
+    top: 50px;*/
+    left: 60.4167%;
+    top: 5.555%;
 }
 #bench2{
-    max-width: 450px;
-    position: relative;
-    left: 870px;
-    top: 380px;
+    max-width: 31.25%;
+    position: absolute;
+    /*left: 870px;
+    top: 380px;*/
+    left: 60.4167%;
+    bottom: -10%;
 }
 .legs{
     width: 100%;
-    height: 150vh;
+    aspect-ratio: 16/15;
+    position: relative;
 }
 #legs1{
-    max-width: 700px;
-    position: relative;
-    top: -50px;
-    left: 100px;
+    max-width: 48.6111%;
+    position: absolute;
+    /*top: -50px;
+    left: 100px;*/
+    top: -3.704%;
+    left: 6.944%;
 }
 #legs2{
-    max-width: 700px;
-    position: relative;
-    top: -50px;
-    left: 100px;
+    max-width: 48.6111%;
+    position: absolute;
+    /*top: -50px;
+    left: 100px;*/
+    top: 34.9855%;
+    left: 6.944%;
 }
 #legs3{
-    max-width: 500px;
-    position: relative;
-    top: -200px;
-    left: 900px;
+    max-width: 34.722%;
+    position: absolute;
+    /*top: -200px;
+    left: 900px;*/
+    left: 62.5%;
+    top: 66%
 }
 .mirror{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30% 65% 5%;
-    height: 100vh;
+    aspect-ratio: 17/10;
 }
 .mirror1{
     background: url(/Photobook/000115190035.jpg);
@@ -892,71 +1028,93 @@ img{
     background: url(Photobook/000115190014.jpg);
     background-position:center;
     background-size:cover;
-    height: 100vh;
+    aspect-ratio: 16/10;
+    position: relative;
 }
 #flowersbw1{
-    max-width: 370px;
+    max-width: 25.69444%;
     position: absolute;
-    top: 1100px;
-    left: 100px;
+    /*top: 1100px;
+    left: 100px;*/
+    top: 6.222%;
+    left: 6.944%;
     cursor: move;
 }
 #flowersbw2{
-    max-width: 250px;
+    max-width: 17.361%;
     position: absolute;
-    top: 1396px;
-    left: 100px;
+    /*top: 1396px;
+    left: 100px;*/
+    left: 6.944%;
+    top: 39.111%;
     cursor: move;
 }
 .denise{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 3.472vw;
+    
 }
 .denise1{
     max-width: 100%;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 3.472%;
+    margin-top: 5.5556%;
+    margin-bottom: 5.5556%;
 }
 .denise2{
     max-width: 100%;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 3.472%;
+    margin-top: 5.5556%;
+    margin-bottom: 5.5556%;
 }
 .grimey{
     width: 100%;
     background-color: black;
-    height: 260vh;
+    /*height: 260vh;*/
+    aspect-ratio: 16/26;
+    position: relative;
 
 }
 #grimey1{
-    max-width: 800px;
+    /*max-width: 800px;
     left: 200px;
     top: 100px;
-    position: relative;
+    position: relative;*/
+    max-width: 55.555%;
+    left: 13.889%;
+    top: 4.37%;
+    position: absolute;
 }
 #grimey2{
-    max-width: 600px;
+    /*max-width: 600px;
     left: 700px;
     top: 250px;
-    position: relative;
+    position: relative;*/
+    max-width: 41.667%;
+    left: 48.611%;
+    top: 37.873%;
+    position: absolute;
+
 }
 #grimey3{
-    max-width: 500px;
+    /*max-width: 500px;
     left: 100px;
     top: 400px;
-    position: relative;
+    position: relative;*/
+    max-width: 34.722%;
+    left: 6.944%;
+    top: 63%;
+    position: absolute;
 }
 .cigarette{
-    /*max-width: 500px;*/
-    max-width: 565px;
-    /*left: 900px;*/
+    /*max-width: 565px;
     left: 880px;
-    /*top: -362px;*/
     top: 510px;
-    position: relative;
+    position: relative;*/
+    max-width: 39.2361%;
+    left: 61.11%;
+    top: 100%;
+    position: absolute;
 }
 
 .grimey4{
@@ -964,7 +1122,7 @@ img{
     background: url(/Photobook/R1-04531-033A.JPG);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    aspect-ratio: 16/9.34;
 }
 /*.cigarette{
     width: 100%;
@@ -973,19 +1131,8 @@ img{
     background-size: cover;
     height: 300vh;
 }*/
-.ruins{
-    width: 100%;
-    height: 100vh;
-    background: url(/Photobook/R1-04532-033A.JPG);
-    background-position: center;
-    background-size: cover;
-}
-#ruins1{
-    max-width: 300px;
-    position: absolute;
-    left: 250px;
-    top: 650px
-}
+
+
 .fishing{
     width: 100%;
     background: url(Photobook/R1-04531-011A.JPG);
