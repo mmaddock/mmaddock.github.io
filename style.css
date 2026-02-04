@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background: url(Photobook/R1-04531-005A.JPG);
+    background: url(Photobook/R1-04531-005A.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -180,47 +180,17 @@ ul li a:hover{
 .about1{
     width: 100%;
     height: 100vh;
-    background: url(/Photobook/000230140009.jpg);
+    background: url(/Photobook/000230140009.webp);
     background-position: center;
     background-size: cover;
     grid-column: 1;
 }
 .about2{
-    width: 100%;
-    height: 100vh;
-    background: url(/Photobook/000230140008.jpg);
-    background-position: center;
-    background-size: cover;
     grid-column: 2;
-    position: relative;
-}
-.content{
-    width: 150px;
-    height: 95px;
-    /*padding-left: 50px;
-    padding-top: 100px;
-    margin: auto;*/
-    color: #c4aa04;
-    overflow: scroll;
-    position: absolute;
-    top: 83vh;
-    left: 5vw;
-}
-.content .par{
-    padding-right: 50px;
-    font-family: "Lucida Typewriter";
-    color: #c4aa04;
-    font-style: italic;
-    font-size: medium;
-    letter-spacing: 5px;
-    line-height: 30px;
-    text-align: justify;
-    cursor: all-scroll;
-    
 }
 .contact{
     width: 100%;
-    background: url(/Photobook/000279440014.jpg);
+    background: url(/Photobook/000279440014.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -269,7 +239,7 @@ ul li a:hover{
 }
 .tribute{
     width: 100%;
-    background: url(/Photobook/img643.jpg);
+    background: url(/Photobook/img643.webp);
     background-position: center;
     background-size: cover;
     height: auto;
@@ -351,6 +321,24 @@ ul li a:hover{
     outline: none;
 
 }
+.content{
+    width: 700px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin: auto;
+    color: #c4aa04;
+}
+.content .par{
+    padding-right: 50px;
+    font-family: "Lucida Typewriter";
+    color: #c4aa04;
+    font-style: italic;
+    font-size: x-large;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align: center;
+}
 /*.par{
     padding-left: 100px;
     padding-right: 100px;
@@ -379,7 +367,7 @@ img{
 }
 .pond{
     width: 100%;
-    background: url(Photobook/000279440016.jpg);
+    background: url(Photobook/000279440016.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -399,7 +387,7 @@ img{
 }
 .pond1{
     width: 100%;
-    background: url(/Photobook/000279440015.jpg);
+    background: url(/Photobook/000279440015.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -420,14 +408,14 @@ img{
 }
 .plant{
     width: 100%;
-    background: url(Photobook/000115170028.jpg);
+    background: url(Photobook/000115170028.webp);
     background-position:center;
     background-size:cover;
     aspect-ratio: 16/10;
 }
 .breakfast{
     width: 100%;
-    background: url(Photobook/000115170035.jpg);
+    background: url(Photobook/000115170035.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -451,7 +439,7 @@ img{
 }
 .shade{
     width: 40%;
-    background: url(Photobook/HAwBg.jpeg);
+    background: url(Photobook/HAwBg.webp);
     background-position: center;
     /*margin-left: 50px;
     margin-top: 80px;
@@ -494,7 +482,7 @@ img{
 }
 .windows{
     width: 100%;
-    background: url(Photobook/R1-04532-030A.JPG);
+    background: url(Photobook/R1-04532-030A.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -527,7 +515,7 @@ img{
 }
 .shapes{
     width: 100%;
-    background: url(Photobook/R1-04532-025A.JPG);
+    background: url(Photobook/R1-04532-025A.webp);
     background-position:center;
    /* margin-left: 50%;*/
     background-size:cover;
@@ -582,7 +570,7 @@ img{
 }
 .brutalism{
     width: 100%;
-    background: url(Photobook/000115190018.jpg);
+    background: url(Photobook/000115190018.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -657,7 +645,7 @@ img{
 }
 .zen{
     width: 100%;
-    background: url(Photobook/000115170019.jpg);
+    background: url(Photobook/000115170019.webp);
     background-position:center;
     background-size:cover;
     height: auto;
@@ -701,7 +689,7 @@ img{
 }
 .dreams{
     width: 100%;
-    background: url(Photobook/000085090020.jpg);
+    background: url(Photobook/000085090020.webp);
     background-position:center;
     background-size:cover;
     aspect-ratio: 16/10;
@@ -731,7 +719,7 @@ img{
 }
 .balcony{
     width: 100%;
-    background: url(Photobook/000279440025.jpg);
+    background: url(Photobook/000279440025.webp);
     background-position:center;
     background-size:cover;
     aspect-ratio: 16/10;
@@ -753,7 +741,7 @@ img{
 }
 .como{
     width: 100%;
-    background: url(/Photobook/000279440034.jpg);
+    background: url(/Photobook/000279440034.webp);
     background-position:center;
     background-size:cover;
     height: 100vh;
@@ -792,14 +780,14 @@ img{
 
 .emptiness{
     width: 100%;
-    background: url(/Photobook/000279440014.jpg);
+    background: url(/Photobook/000279440014.webp);
     background-position:center;
     background-size:cover;
     height: 100vh;
 }
 .ruins{
     width: 100%;
-    background: url(/Photobook/R1-04532-033A.JPG);
+    background: url(/Photobook/R1-04532-033A.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -816,7 +804,7 @@ img{
 /*.ruins{
     width: 100%;
     height: 100vh;
-    background: url(/Photobook/R1-04532-033A.JPG);
+    background: url(/Photobook/R1-04532-033A.webp);
     background-position: center;
     background-size: cover;
 }*/
@@ -830,7 +818,7 @@ img{
 
 @media (max-width: 600px){
     .ruins{
-        background: url(/Photobook/R1-04532-033A.JPG);
+        background: url(/Photobook/R1-04532-033A.webp);
         background-size: cover;
         background-position: -65% 0%;
     }
@@ -839,7 +827,7 @@ img{
         width: 100vh;
         height: 100vw;
         position: absolute;
-        background: url(/Photobook/R1-04532-033A.JPG);
+        background: url(/Photobook/R1-04532-033A.webp);
         background-position:center;
         background-size:auto;
         transform: rotate(90deg)translate(0%, 0%);
@@ -908,7 +896,7 @@ img{
 }
 .pigeons2{
     width: 100%;
-    background: url(/Photobook/R1-04531-003A.JPG);
+    background: url(/Photobook/R1-04531-003A.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 16/10;
@@ -937,7 +925,7 @@ img{
 }
 .intimate1{
     max-width: 100%;
-    background: url(/Photobook/000085090018.jpg);
+    background: url(/Photobook/000085090018.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 8/10;
@@ -946,7 +934,7 @@ img{
 }
 .intimate2{
     max-width:100%;
-    background: url(/Photobook/R1-04532-001A.JPG);
+    background: url(/Photobook/R1-04532-001A.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 8/5;
@@ -956,7 +944,7 @@ img{
 }
 .intimate3{
     max-width:100%;
-    background: url(/Photobook/R1-04532-000A.JPG);
+    background: url(/Photobook/R1-04532-000A.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 8/5;
@@ -971,7 +959,7 @@ img{
 }
 .bench{
     width: 100%;
-    background: url(/Photobook/000279440012.jpg);
+    background: url(/Photobook/000279440012.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 16/10;
@@ -1029,7 +1017,7 @@ img{
     aspect-ratio: 17/10;
 }
 .mirror1{
-    background: url(/Photobook/000115190035.jpg);
+    background: url(/Photobook/000115190035.webp);
     background-position: center;
     background-size: cover;
     grid-column: 2/ span 3;
@@ -1037,7 +1025,7 @@ img{
 }
 .flowersbw{
     width: 100%;
-    background: url(Photobook/000115190014.jpg);
+    background: url(Photobook/000115190014.webp);
     background-position:center;
     background-size:cover;
     aspect-ratio: 16/10;
@@ -1131,14 +1119,14 @@ img{
 
 .grimey4{
     width: 100%;
-    background: url(/Photobook/R1-04531-033A.JPG);
+    background: url(/Photobook/R1-04531-033A.webp);
     background-position: center;
     background-size: cover;
     aspect-ratio: 16/9.34;
 }
 /*.cigarette{
     width: 100%;
-    background: url(/Photobook/R1-04531-034A.JPG);
+    background: url(/Photobook/R1-04531-034A.webp);
     background-position: center;
     background-size: cover;
     height: 300vh;
@@ -1147,14 +1135,14 @@ img{
 
 .fishing{
     width: 100%;
-    background: url(Photobook/R1-04531-011A.JPG);
+    background: url(Photobook/R1-04531-011A.webp);
     background-position:center;
     background-size:cover;
     height: 100vh;
 }
 .hope{
     width: 100%;
-    background: url(/Photobook/000279440018.jpg);
+    background: url(/Photobook/000279440018.webp);
     background-position:center;
     background-size:cover;
     height: 100vh;
@@ -1168,7 +1156,7 @@ img{
 }
 .grandma1{
     width: 100%;
-    background: url(/Photobook/img643.jpg);
+    background: url(/Photobook/img643.webp);
     background-position:center;
     background-size:cover;
     height: 100vh;
