@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+.sorts-mill-goudy-regular {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sorts-mill-goudy-regular-italic {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 .main{
     width: 100%;
     background: url(Photobook/R1-04531-005A.webp);
@@ -39,7 +54,8 @@
 .title{
     color:rgb(255, 166, 0);
     font-size: 13.33vh;
-    font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;
+    /*font-family:'Big Caslon', -apple-system, BlinkMacSystemFont, medium;*/
+    font-family: 'Sorts Mill Goudy', serif;
     text-align: center;
     /*padding-bottom: 1.5cm;
     padding-left: 2.5cm;*/
@@ -280,6 +296,49 @@ ul li a:hover{
     height:100vh;
     width: 100%;
     position: relative;
+}
+.tribute-content1{
+    width: 50%;
+    height: 80%;
+    color: #c4aa04;
+    overflow: visible;
+    position: absolute;
+    top: 8%;
+    left: 45%;
+}
+.tribute-content1 .par{
+    padding-right: 50px;
+    font-family: "Lucida Typewriter";
+    color: #c4aa04;
+    font-style: italic;
+    font-size: medium;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align: justify;
+    cursor: all-scroll;
+    white-space: pre;
+    
+}
+.tribute-content2{
+    width: 50%;
+    height: 20%;
+    color: #c4aa04;
+    overflow: visible;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+.tribute-content2 .par{
+    padding-right: 50px;
+    font-family: "Lucida Typewriter";
+    color: #c4aa04;
+    font-style: italic;
+    font-size: medium;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align: justify;
+    cursor: all-scroll;
+    
 }
 .tribute1{
     max-width: 34.7222%;
